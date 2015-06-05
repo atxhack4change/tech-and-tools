@@ -23,3 +23,7 @@ section img.img-row-2 {
 	max-height: 250px;
 	margin-right: 2%;
 }
+
+.gist table {
+	width: 100%;
+}

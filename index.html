@@ -198,6 +198,138 @@ boringPics.on("hover", function(){
 					</section>
 				</section>
 
+				<section>
+					<section>
+						<h2>Now let's build an app called</h2>
+						<h1> Social Taco</h1>
+						<img src="img/taco-share.gif" alt="Taco mouth share">
+					</section>
+					<section>
+						<h2>Social Taco App</h2>
+						<ol>
+							<li>First let's create a new folder called "social-taco" somewhere easy. Like the desktop.</li>
+							<li>Now, let's open that folder in a text editor. <em>I like <a href="http://www.sublimetext.com/">Sublime Text</a>. <a href="https://atom.io/">Atom</a> is cool too.</em></li>
+							<li>Create a new file called "index.html". And type in some text like "Hello Taco Loving World!"</li>
+							<li>Open that file in a browser...</li>
+						</ol>
+					</section>					
+					<section>
+						<h2>Social Taco App</h2>
+						<p>Let's wrap what we have in some boilerplate HTML.</p>
+						<script src="https://gist.github.com/mateoclarke/2d44ac5617f93b369a4b.js"></script>
+					</section>
+					<section>
+						<h2>Social Taco App</h2>
+						<p>Now let's update the body with the actual HTML we want.</p>
+						<script src="https://gist.github.com/mateoclarke/254695ee50f4d178fbb0.js"></script>
+					</section>
+					<section>
+						<h2>Social Taco App</h2>
+						<ul>
+							<li>Now we need to make our taco app look pretty with some CSS.</li>
+							<li>Create a new file called "styles.css".</li>
+							<li><a href="https://gist.github.com/mateoclarke/ba60494f50b02fea5be3">Code Snippet Link</a></li>
+						</ul>
+						
+						<script src="https://gist.github.com/mateoclarke/ba60494f50b02fea5be3.js"></script>
+					</section>
+					<section >
+						<h2>Social Taco App</h2>
+						<small>For our "index.html" to be aware of this new CSS file, we need to link them. In the head section of the HTML add:</small>
+						<div data-markdown>
+							<script type="text/template">
+							```
+							<link href="style.css" rel="stylesheet">
+							```
+							</script>
+						</div>
+
+						<small>And we'll also want to reference a few other css libraries, like Bootstrap:</small>
+						<div data-markdown>
+							<script type="text/template">
+							```
+							<link rel="shortcut icon" href="/taco.png">
+							<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+							<link href="https://bootswatch.com/yeti/bootstrap.min.css" rel="stylesheet">
+							<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+							```
+							</script>
+						</div>
+					</section>
+					<section>
+						<h2>Social Taco App</h2>
+						<small>Download this <a href="https://raw.githubusercontent.com/mateoclarke/austin-tacos/master/taco.png">Taco image</a> and save it into the same social-taco folder. We'll place it on the map for each taco joint.</small>
+						<small>Then don't forget to reference it in the HTML.</small>
+						<div data-markdown>
+							<script type="text/template">
+							```
+							<link rel="shortcut icon" href="/taco.png">
+							```
+							</script>
+						</div>
+					</section>
+					<section>
+						<h2>Social Taco App</h2>
+						<small>Here is all the javascript code we need. Add it directly beneath the closing body tag.</small>
+						<script src="https://gist.github.com/mateoclarke/b93f20b6641554da6dd7.js"></script>
+					</section>
+					<section>
+						<h2>Social Taco App</h2>
+						<small>Lastly, create a file called "data.json" which will be referenced to place taco markers on the map.</small>
+						<div data-markdown>
+							<script type="text/template">
+							```
+							{
+							    "tacos":[
+							        {
+							            "name": "Tacodeli",
+							            "neighborhood": "Rosedale",
+							            "url": "http://www.tacodeli.com/",
+							            "location": [30.311021, -97.741042]
+							        },
+							        {
+							            "name": "Taco-Mex",
+							            "neighborhood": "Blackland",
+							            "url": "https://plus.google.com/110081654824079582056/about?gl=us&hl=en",
+							            "location": [30.284662, -97.714851]
+							        }
+							    ]
+							}
+							```
+							</script>
+						</div>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<img src="img/github.png" alt="Github logo">
+					</section>
+					<section>
+						<h2>Github Pages</h2>
+						<a href="https://pages.github.com/">https://pages.github.com/</a>
+					</section>
+					<section>
+						<h2>Markdown</h2>
+						<img src="img/mou.png" alt="Mou screenshot">
+						<a href="http://dillinger.io/">Web Markdown Editor</a>
+					</section>
+				</section>
+
+				<section>
+					<img src="img/slack.gif" alt="Slack logo">
+				</section>
+
+				<section>
+					<h2>Resources:</h2>
+					<ul>
+						<li><a href="http://www.theodinproject.com/courses">The Odin Project</a></li>
+						<li><a href="http://prework.flatironschool.com/web-development/">Flatiron School Prework</a></li>
+						<li><a href="http://curriculum.railsbridge.org/docs/">Rails Bridge</a></li>
+						<li><a href="http://www.git-tower.com/learn/git/ebook/mac/basics/basic-workflow">Git</a></li>
+					</ul>
+				</section>
+
 				<section data-background="img/end.gif"></section>
 
 				<!-- Example of nested vertical slides -->
