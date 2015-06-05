@@ -164,6 +164,39 @@
 					<section data-background="img/mind-blown.gif"></section>
 				</section>
 
+				<section>
+					<section>
+						<h2>Time to play with what we've learned.</h2>
+						<h3>Let's hack <a href="http://www.texastribune.org/">the news</a></h3>
+					</section>
+					<section>
+						<h2>Image Hacking</h2>
+						<pre><code data-trim contenteditable>
+						// This is some js code...
+
+var coolPic    = "http://bit.ly/1ys7Hm8";
+var boringPics = $(".media img");
+
+boringPics.on("hover", function(){ 
+	$(this).attr("src", coolPic);
+});
+						</pre></code>
+						<h3>The code explained:</h3>
+						<small><ul>
+							<li>Let's find a cool picture on the internetz and call it "coolPic".</li>
+							<li>Then we'll find all pictures("img") inside "div"s with the class "media".</li>
+							<li>Now, when a boring picture gets hovered on...</li> 
+							<li>...change this picture's source attribute(the url of the image) to our cool new picture.</li>
+						</ul></small>
+					</section>
+					<section>
+						<ul>
+							<li>Chrome Developer Tools</li>
+							<li>Mozilla Firebug</li>
+						</ul>
+					</section>
+				</section>
+
 				<section data-background="img/end.gif"></section>
 
 				<!-- Example of nested vertical slides -->
